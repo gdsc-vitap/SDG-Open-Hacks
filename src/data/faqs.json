@@ -1,0 +1,70 @@
+[
+  {
+    "question": "What is a hackathon?",
+    "answer": "The word hackathon comes from the combinations of “hacker” and “marathon”. These are moments of collective intelligence lasting a few hours, the aim is to develop practical and innovative solutions to concrete problems (challenges). \nWe provide mentors, fun activities, speakers, workshops, food, friends, and so much more. You take care of hacking; we’ll take care of you."
+  },
+  {
+    "question": "What is a SDG Open Hack?",
+    "answer": "SDG Open Hack is a 36-hour national-level hybrid first hackathon organized by Google Developer Student Club, VIT-AP in which all participants can sharpen their skills and connect with people to grow together."
+  },
+  {
+    "question": "How is SDG Open Hack different?",
+    "answer": "The SDG Open Hack is an atypical hackathon that promotes innovation, cultivates mobility, international competence, and teamwork ability by encouraging building for social impact. Brainstorm solutions to well-identified Sustainable Development Goals (SDG) related challenges relevant to the Asia-Pacific region in particular."
+  },
+  {
+    "question": "Who can attend?",
+    "answer": "SDG Open Hack is open to all current university students, encourages cross universities and disciplines to form a team to sharpen socially-engaged mindsets, innovation capabilities, and entrepreneurial skills."
+  },
+  {
+    "question": "What are the 17 Sustainable Development Goals of the United Nations?",
+    "answer": "Created by the United Nations in 2015 to be achieved by 2030, the 17 Sustainable Development Goals (SDGs) agreed upon by all 193 United Nations Member States aim to end poverty, ensure prosperity and protect the planet. More information about the 17 SDGs can be found here."
+  },
+  {
+    "question": "Can my solution solve a problem outside of the scope of the 17 Sustainable Development Goals?",
+    "answer": "No. We require your submitted solution to solve for at least one or more of the 17 Sustainable Development Goals (SDGs). When you’re ready to submit your solution, please identify which of the 17 SDGs your solution is focused on solving, and which specific goal targets you are solving for."
+  },
+  {
+    "question": "I am a first time hacker, what should I do?",
+    "answer": "No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general. Join our discord server for more details."
+  },
+  {
+    "question": "How team formation works?",
+    "answer": "You can form a team with 4 members in it at maximum. Individual participation is allowed. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+  },
+  {
+    "question": "What will a hybrid hackathon look like?",
+    "answer": "All communication will be via Discord, opening and closing ceremonies will be through Youtube, workshops will be on Google Meet and submissions on Devfolio! We will make sure to send attendees a detailed document 📄 with a schedule of all workshops, the topics, and how to access them."
+  },
+  {
+    "question": "Do I have to be wired for 24-hours?",
+    "answer": "No, the duration of the Open Hack is designed to allow each participant to adapt their engagement throughout the event. Apart from the compulsory sessions (i.e. Welcome Remarks, Hackathon Brief, Teamwork-Part 1, Cross Pitch, Coaching, submitting the final deliverable) that must be strictly adhered to, participants are free to plan and manage their own time. It is up to everyone to live their hackathon experience as they wish, with respect for the teammates and various stakeholders in this Open Hack!"
+  },
+  {
+    "question": "Will there be schwag?",
+    "answer": "That shall receive a resounding \"Yes\"! Participants will receive Solution Challenge schwag!"
+  },
+  {
+    "question": "Are there any winners?",
+    "answer": "Yes, there will be a total of 3 winning teams. The award categories are as follow: \nThe Most Innovative Solution\nThe Most Impactful Solution\nThe Most Investible Solution\nIn addition, 1 favourite project will be nominated by the Open Hack participants as soon as all pitches are submitted, thanks to an open voting system on the Open Hack platform. Voting will be closed on <> February at <> pm (IST)."
+  },
+  {
+    "question": "Do you have a code of conduct?",
+    "answer": "Yes! We will be following the MLH Code of Conduct.\nTLDR: Be respectful."
+  },
+  {
+    "question": "Have some other questions?",
+    "answer": "Reach us directly at (gdsc.club@vitap.ac.in) or send a message to our social media pages. We would happy to help you."
+  },
+  {
+    "question": "What is the expected deliverable at the end of the Open Hack?",
+    "answer": "Each team is required to submit a pitch video (no more than 3-minutes) to present their solution in a business plan format. The video must be uploaded on YouTube before <> (IST).  Late submission will not to be entertained.\nThe grand finale will be broadcast on GDSC VIT-AP Youtube channel and is accessible to the public."
+  },
+  {
+    "question": "Are there any formal requirements for the solution? Or is there any preference?",
+    "answer": "There are no formal requirements or preferences for the content of the solution. We are open to creative and innovative ideas that will solve any of the problems in this Open Hack. The only standardised requirements are that you should you solve for at least one SDG, use Google technologies and will need to present your solution in the form of a 3-minutes pitch video."
+  },
+  {
+    "question": "Does the solution need to focus on the macro direction or specific to micro areas?",
+    "answer": "Again, this depends very much on the problem that you are tackling. Some problems will call for solutions that deal with a specific group of people while others may be on a much larger scale and will require solutions that are more macro in nature. Refer sample problem statements here -> https://docs.google.com/document/d/1Iw09-8j2oe-y7WQ82foPsKHJSttGukKMdi881c-FL-g/edit?usp=sharing"
+  }
+]
