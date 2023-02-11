@@ -13,12 +13,18 @@ const Heading = ({
 }) => {
   return (
     <Container
+      gap={0}
       css={{
+        width: "100%",
         position: "relative",
         height: "350px",
         overflow: "hidden",
+        margin: 0,
         "@mdMax": {
           height: "220px",
+        },
+        "@xsMax": {
+          height: "200px",
         },
       }}
     >
@@ -37,7 +43,7 @@ const Heading = ({
             fontSize: "120px",
           },
           "@xsMax": {
-            fontSize: "60px",
+            fontSize: "80px",
           },
           ...cssForBackgroundText,
         }}
@@ -48,17 +54,14 @@ const Heading = ({
         h1
         css={{
           position: "absolute",
-          bottom: "15%",
+          top: "50%",
           fontSize: "$8xl",
           letterSpacing: "0.05rem",
           color: "$secondary",
           left: "3%",
           "@mdMax": {
             fontSize: "$6xl",
-            bottom: "25%",
-          },
-          "@xsMax": {
-            bottom: "50%",
+            top: "20%",
           },
           ...cssForForegroundText,
         }}
