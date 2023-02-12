@@ -36,6 +36,7 @@ const Hero = () => {
           display: "flex",
           flexDirection: "column",
           rowGap: "1rem",
+          zIndex: 999,
         }}
       >
         <Text
@@ -71,7 +72,6 @@ const Hero = () => {
             textAlign: "center",
             fontSize: "$xl",
             padding: "0 3rem",
-            zIndex: 999,
             "@mdMax": {
               fontSize: "$lg",
             },
