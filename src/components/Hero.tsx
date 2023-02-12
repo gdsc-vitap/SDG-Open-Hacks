@@ -98,7 +98,6 @@ const Hero = () => {
             }}
             as="a"
             target="_blank"
-            disabled
             href="https://docs.google.com/forms/d/e/1FAIpQLSfsqfUWatcPdlQVa1J2d5ntHGQNoBBFef3Bf4omynGnJvQ8PA/viewform"
           >
             Register Now
