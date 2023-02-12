@@ -24,7 +24,7 @@ const AppBar = () => {
       isBordered
       maxWidth="fluid"
       css={{
-        zIndex: 999,
+        zIndex: 999999,
       }}
     >
       <Navbar.Brand as={ReactLink} to="/">
