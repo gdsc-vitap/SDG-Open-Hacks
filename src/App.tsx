@@ -16,6 +16,7 @@ const App = () => {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/schedule" element={<Schedule />} />
       </Routes>
+      <hr />
       <Footer />
     </BrowserRouter>
   );
