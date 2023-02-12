@@ -29,7 +29,13 @@ const AppBar = () => {
         zIndex: 999999,
       }}
     >
-      <Navbar.Brand as={ReactLink} to="/">
+      <Navbar.Brand
+        as={ReactLink}
+        to="/"
+        onClick={(_) => {
+          window.scrollTo(0, 0);
+        }}
+      >
         <Image src={SDGLogo} alt="SDG Open Hack" width="12rem" />
       </Navbar.Brand>
       <Navbar.Content enableCursorHighlight hideIn="sm" variant="underline">
