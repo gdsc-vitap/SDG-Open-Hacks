@@ -21,10 +21,13 @@ const Heading = ({
         overflow: "hidden",
         margin: 0,
         "@mdMax": {
-          height: "220px",
+          height: "200px",
+        },
+        "@smMax": {
+          height: "180px",
         },
         "@xsMax": {
-          height: "200px",
+          height: "120px",
         },
       }}
     >
@@ -54,14 +57,14 @@ const Heading = ({
         h1
         css={{
           position: "absolute",
-          top: "50%",
+          top: "45%",
           fontSize: "$8xl",
           letterSpacing: "0.05rem",
           color: "$secondary",
           left: "3%",
           "@mdMax": {
             fontSize: "$6xl",
-            top: "20%",
+            top: "30%",
           },
           ...cssForForegroundText,
         }}

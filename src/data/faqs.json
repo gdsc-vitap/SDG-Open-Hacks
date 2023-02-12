@@ -51,10 +51,7 @@
     "question": "Do you have a code of conduct?",
     "answer": "Yes! We will be following the MLH Code of Conduct.\nTLDR: Be respectful."
   },
-  {
-    "question": "Have some other questions?",
-    "answer": "Reach us directly at (gdsc.club@vitap.ac.in) or send a message to our social media pages. We would happy to help you."
-  },
+
   {
     "question": "What is the expected deliverable at the end of the Open Hack?",
     "answer": "Each team is required to submit a pitch video (no more than 3-minutes) to present their solution in a business plan format. The video must be uploaded on YouTube before <> (IST).  Late submission will not to be entertained.\nThe grand finale will be broadcast on GDSC VIT-AP Youtube channel and is accessible to the public."
@@ -65,6 +62,10 @@
   },
   {
     "question": "Does the solution need to focus on the macro direction or specific to micro areas?",
-    "answer": "Again, this depends very much on the problem that you are tackling. Some problems will call for solutions that deal with a specific group of people while others may be on a much larger scale and will require solutions that are more macro in nature. Refer sample problem statements here -> https://docs.google.com/document/d/1Iw09-8j2oe-y7WQ82foPsKHJSttGukKMdi881c-FL-g/edit?usp=sharing"
+    "answer": "Again, this depends very much on the problem that you are tackling. Some problems will call for solutions that deal with a specific group of people while others may be on a much larger scale and will require solutions that are more macro in nature. Refer sample problem statements <a href=\"https://docs.google.com/document/d/1Iw09-8j2oe-y7WQ82foPsKHJSttGukKMdi881c-FL-g/edit?usp=sharing\" target=\"_blank\">here.</a> "
+  },
+  {
+    "question": "Have some other questions?",
+    "answer": "Reach us directly at <a href=\"mailto:gdsc.club@vitap.ac.in\">gdsc.club@vitap.ac.in</a> or send a message to our social media pages. We would happy to help you."
   }
 ]

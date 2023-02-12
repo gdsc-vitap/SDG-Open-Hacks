@@ -4,10 +4,20 @@ import Video from "../assets/video.mp4";
 
 const About = () => {
   return (
-    <>
+    <div
+      id="about"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: 0,
+        width: "100%",
+        padding: "0 var(--nextui--navbarPadding)",
+        margin: 0,
+      }}
+    >
       <Heading backgroundText="ABOUT US" foregroundText="About Us" />
       <Row justify="space-between" wrap="wrap" css={{ rowGap: "$15" }}>
-        <Container
+        {/* <Container
           gap={0}
           css={{
             width: "45%",
@@ -19,10 +29,10 @@ const About = () => {
           }}
         >
           <video controls src={`${Video}`} width="100%" height="auto"></video>
-        </Container>
+        </Container> */}
         <Text
           css={{
-            width: "50%",
+            width: "100%",
             "@mdMax": {
               width: "100%",
             },
@@ -47,7 +57,7 @@ const About = () => {
           <br />
           <br />
           <h4> Theme</h4>
-          SDG Open Hack centers around the
+          SDG Open Hack centers around the{" "}
           <Link
             href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/"
             target="_blank"
@@ -58,7 +68,7 @@ const About = () => {
           solve one or more of these goals using Google technologies.
         </Text>
       </Row>
-    </>
+    </div>
   );
 };
 
