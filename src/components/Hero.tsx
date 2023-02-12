@@ -24,7 +24,7 @@ const Hero = () => {
         style={{
           position: "absolute",
           width: "100%",
-          opacity: 0.15,
+          opacity: 0.12,
           bottom: 0,
           right: 0,
           zIndex: 333,

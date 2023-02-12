@@ -14,7 +14,15 @@ const SponsorCard = ({
       isPressable
       isHoverable
       variant="bordered"
-      css={{ mw: "150px", p: "$lg", justifyContent: "center", ...css }}
+      css={{
+        mw: "150px",
+        p: "$lg",
+        justifyContent: "center",
+        "@xsMax": {
+          mw: "120px",
+        },
+        ...css,
+      }}
       onClick={(_) => window.open(link, "_blank")}
     >
       <Card.Image src={img} alt="sponsor card" css={{ flex: "1 0 auto" }} />
