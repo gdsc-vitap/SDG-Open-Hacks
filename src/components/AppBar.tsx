@@ -2,8 +2,10 @@ import { Navbar, Image, Link, Text } from "@nextui-org/react";
 import { Link as ReactLink } from "react-router-dom";
 import SDGLogo from "../assets/gdsc_event_logo.png";
 import { HashLink } from "react-router-hash-link";
+import { useRef } from "react";
 
 const AppBar = () => {
+  const toggleBtn = useRef<HTMLButtonElement>(null);
   const collapseItems = [
     { title: "About", link: "/#about", hashLink: true },
     { title: "Tracks", link: "/#tracks", hashLink: true },
@@ -52,7 +54,11 @@ const AppBar = () => {
         ))}
       </Navbar.Content>
 
-      <Navbar.Toggle aria-label="toggle navigation" showIn="sm" />
+      <Navbar.Toggle
+        aria-label="toggle navigation"
+        showIn="sm"
+        ref={toggleBtn}
+      />
       <Navbar.Collapse>
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem key={index}>
@@ -61,6 +67,9 @@ const AppBar = () => {
               color="inherit"
               style={{
                 minWidth: "100%",
+              }}
+              onClick={(_) => {
+                toggleBtn.current!.click();
               }}
               to={item.link}
             >
@@ -77,6 +86,9 @@ const AppBar = () => {
                 minWidth: "100%",
               }}
               to={item.link}
+              onClick={(_) => {
+                toggleBtn.current!.click();
+              }}
             >
               {item.title}
             </Link>
