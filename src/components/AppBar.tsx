@@ -19,7 +19,14 @@ const AppBar = () => {
   ];
 
   return (
-    <Navbar variant="sticky" isBordered maxWidth="fluid">
+    <Navbar
+      variant="sticky"
+      isBordered
+      maxWidth="fluid"
+      css={{
+        zIndex: 999,
+      }}
+    >
       <Navbar.Brand as={ReactLink} to="/">
         <Image src={SDGLogo} alt="SDG Open Hack" width="12rem" />
       </Navbar.Brand>
