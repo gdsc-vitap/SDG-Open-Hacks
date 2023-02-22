@@ -1,42 +1,41 @@
-import { Text, Spacer, Row, Button } from "@nextui-org/react";
+import { Text, Spacer, Row, Button, styled } from "@nextui-org/react";
 import HackathonImage from "../assets/hackathon.png";
 import DiscordIcon from "../components/DiscordIcon";
 import EditIcon from "../components/EditIcon";
 
+const MyStyledDiv = styled("div", {
+  display: "flex",
+  justifyContent: "center",
+  flexDirection: "column",
+  alignItems: "center",
+  gap: 0,
+  position: "relative",
+  height: "90vh",
+  width: "100%",
+
+  "&::before": {
+    content: "",
+    backgroundImage: `url(${HackathonImage}), linear-gradient(45deg, #4285f4 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, #4285f4 100%)`,
+    position: "absolute",
+    top: "0px",
+    right: "0px",
+    bottom: "0px",
+    left: "0px",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "bottom",
+    backgroundSize: "100%",
+    opacity: 0.25,
+  },
+});
+
 const Hero = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: 0,
-        position: "relative",
-        height: "90vh",
-        width: "100%",
-        backgroundImage: `linear-gradient(45deg, #4285f4 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, #4285f4 100%)`,
-      }}
-    >
-      <img
-        src={HackathonImage}
-        alt="pair programming illustration"
-        style={{
-          position: "absolute",
-          width: "100%",
-          opacity: 0.3,
-          bottom: 0,
-          right: 0,
-          zIndex: 333,
-        }}
-      />
-
+    <MyStyledDiv>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
           rowGap: "1rem",
-          zIndex: 999,
         }}
       >
         <Text
@@ -117,7 +116,7 @@ const Hero = () => {
           </Button>
         </Row>
       </div>
-    </div>
+    </MyStyledDiv>
   );
 };
 
