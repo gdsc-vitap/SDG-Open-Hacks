@@ -17,7 +17,7 @@ const Heading = ({
       css={{
         width: "100%",
         position: "relative",
-        height: "350px",
+        height: "250px",
         overflow: "hidden",
         margin: 0,
         "@mdMax": {
@@ -34,19 +34,19 @@ const Heading = ({
       <Text
         h1
         css={{
-          fontSize: "240px",
+          fontSize: "150px",
           position: "absolute",
           lineHeight: "1.5",
           letterSpacing: "0.5rem",
           top: 0,
-          left: "-3%",
+          left: 0,
           color: "hsla(0,0%,100%,.25)",
 
           "@mdMax": {
-            fontSize: "120px",
+            fontSize: "100px",
           },
           "@xsMax": {
-            fontSize: "80px",
+            fontSize: "60px",
           },
           ...cssForBackgroundText,
         }}
@@ -57,7 +57,7 @@ const Heading = ({
         h1
         css={{
           position: "absolute",
-          top: "45%",
+          top: "25%",
           fontSize: "$8xl",
           letterSpacing: "0.05rem",
           color: "$secondary",
@@ -65,6 +65,9 @@ const Heading = ({
           "@mdMax": {
             fontSize: "$6xl",
             top: "30%",
+          },
+          "@xsMax": {
+            top: "10%",
           },
           ...cssForForegroundText,
         }}
