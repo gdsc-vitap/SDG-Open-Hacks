@@ -1,5 +1,5 @@
 import { Text, Spacer, Row, Button } from "@nextui-org/react";
-import ProgrammingIllustration from "../assets/programming.png";
+import HackathonImage from "../assets/hackathon.png";
 import DiscordIcon from "../components/DiscordIcon";
 import EditIcon from "../components/EditIcon";
 
@@ -19,12 +19,12 @@ const Hero = () => {
       }}
     >
       <img
-        src={ProgrammingIllustration}
+        src={HackathonImage}
         alt="pair programming illustration"
         style={{
           position: "absolute",
           width: "100%",
-          opacity: 0.12,
+          opacity: 0.3,
           bottom: 0,
           right: 0,
           zIndex: 333,
@@ -80,7 +80,7 @@ const Hero = () => {
             },
           }}
         >
-          Join us on 25th February 2023 with over 300 students from across the
+          Join us on 26th February 2023 with over 300 students from across the
           nation for 36 hours of creation, innovation, & fun!
         </Text>
         <Spacer y={1} />
