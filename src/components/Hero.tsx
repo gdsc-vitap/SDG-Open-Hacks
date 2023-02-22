@@ -10,6 +10,7 @@ const MyStyledDiv = styled("div", {
   alignItems: "center",
   gap: 0,
   position: "relative",
+  backgroundImage: `linear-gradient(45deg, #4285f4 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, #4285f4 100%)`,
   height: "90vh",
   width: "100%",
 
@@ -24,7 +25,7 @@ const MyStyledDiv = styled("div", {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom",
     backgroundSize: "100%",
-    opacity: 0.25,
+    opacity: 0.2,
   },
 });
 
