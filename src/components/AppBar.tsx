@@ -21,14 +21,7 @@ const AppBar = () => {
   ];
 
   return (
-    <Navbar
-      variant="sticky"
-      isBordered
-      maxWidth="fluid"
-      css={{
-        zIndex: 999999,
-      }}
-    >
+    <Navbar variant="sticky" isBordered maxWidth="fluid">
       <Navbar.Brand
         as={ReactLink}
         to="/"
@@ -38,7 +31,7 @@ const AppBar = () => {
       >
         <Image src={SDGLogo} alt="SDG Open Hack" width="12rem" />
       </Navbar.Brand>
-      <Navbar.Content enableCursorHighlight hideIn="sm" variant="underline">
+      <Navbar.Content hideIn="sm" variant="underline">
         {collapseItems.map((item, index) => (
           <Navbar.Link
             to={item.link}
