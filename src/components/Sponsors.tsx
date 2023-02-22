@@ -30,10 +30,10 @@ const Sponsors = () => {
       img: "https://i.imgur.com/2SmBz7m.png",
       link: "https://www.vitap.ac.in/",
     },
-    {
-      img: "https://i.imgur.com/rQBf7Ng.png",
-      link: "https://www.linkedin.com/company/air-center-vitap/about/",
-    },
+    // {
+    //   img: "https://i.imgur.com/rQBf7Ng.png",
+    //   link: "https://www.linkedin.com/company/air-center-vitap/about/",
+    // },
   ];
 
   return (
