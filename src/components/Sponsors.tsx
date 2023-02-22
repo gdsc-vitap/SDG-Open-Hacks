@@ -1,41 +1,8 @@
 import Heading from "./Heading";
 import SponsorSection from "./SponsorSection";
+import SponsorsData from "../data/sponsors.json";
 
 const Sponsors = () => {
-  const seasonSponsors = [
-    {
-      img: "https://i.imgur.com/4mUjgsk.png",
-      link: "https://devfolio.co/",
-    },
-    {
-      img: "https://i.imgur.com/070AfOo.png",
-      link: "https://filecoin.io/",
-    },
-    {
-      img: "https://i.imgur.com/AKaesvY.png",
-      link: "https://polygon.technology/",
-    },
-    {
-      img: "https://i.imgur.com/xI51LEs.png",
-      link: "https://replit.com/",
-    },
-    {
-      img: "https://i.imgur.com/rVtd35C.png",
-      link: "https://solana.com/",
-    },
-  ];
-
-  const venuePartners = [
-    {
-      img: "https://i.imgur.com/2SmBz7m.png",
-      link: "https://www.vitap.ac.in/",
-    },
-    // {
-    //   img: "https://i.imgur.com/rQBf7Ng.png",
-    //   link: "https://www.linkedin.com/company/air-center-vitap/about/",
-    // },
-  ];
-
   return (
     <div
       id="sponsors"
@@ -49,8 +16,14 @@ const Sponsors = () => {
       }}
     >
       <Heading foregroundText="Sponsors" backgroundText="SPONSORS" />
-      <SponsorSection title="Season Partners" sponsorsList={seasonSponsors} />
-      <SponsorSection title="Venue Partners" sponsorsList={venuePartners} />
+      {SponsorsData.map((sponsor) => {
+        return (
+          <SponsorSection
+            title={sponsor.title}
+            sponsorsList={sponsor.sponsors}
+          />
+        );
+      })}
     </div>
   );
 };
