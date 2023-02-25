@@ -98,7 +98,7 @@ const Hero = () => {
             }}
             as="a"
             target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfsqfUWatcPdlQVa1J2d5ntHGQNoBBFef3Bf4omynGnJvQ8PA/viewform"
+            href="https://bit.ly/SDGHack2023"
           >
             Register Now
           </Button>
