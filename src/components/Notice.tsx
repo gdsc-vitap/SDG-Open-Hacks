@@ -3,6 +3,7 @@ const Notice = () => {
     <div
       style={{
         textAlign: "center",
+        padding: "0 2rem",
       }}
     >
       <p>
