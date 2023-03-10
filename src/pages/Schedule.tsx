@@ -1,28 +1,11 @@
 import Heading from "../components/Heading";
-import { Button, Container, Text } from "@nextui-org/react";
+import { Button, Text } from "@nextui-org/react";
+import day1Schedule from "../data/day1Schedule.json";
+import day2Schedule from "../data/day2Schedule.json";
 import { useState } from "react";
 
 const Schedule = () => {
   const [selectedDay, setSelectedDay] = useState<number>(1);
-
-  const day1Schedule = {
-    "9:00 AM": "Opening Ceremony",
-    "9:30 AM": "Icebreaker Hour - Hacker Hangouts and Speed friending",
-    "10:00 - 10:25 AM":
-      "Empowering Change: Voices for Social Impact - Keynote Address",
-    "11:00 AM": "Hacking period begins!",
-    "1:00 PM": "Fuel Up: Time for Lunch!",
-    "2:00 PM": "Ideation Checkpoint: Refine Your Ideas",
-    "5:00 PM": "Design Checkpoint",
-  };
-
-  const day2Schedule = {
-    "9:00 AM": "Meme Design Contest: Get Creative with Visual Humor",
-    "12:00 PM": "Replit Speaker Session",
-    "2:00 PM": "Final MVP Checkpoint: The Finish Line is in Sight",
-    "3:00 PM": "Judging Period",
-    "4:00 PM": "Closing Ceremony and Awards",
-  };
 
   const chosenDay = selectedDay === 1 ? day1Schedule : day2Schedule;
 
