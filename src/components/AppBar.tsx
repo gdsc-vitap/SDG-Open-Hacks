@@ -9,7 +9,7 @@ const AppBar = () => {
   const collapseItems = [
     { title: "About", link: "/#about", hashLink: true },
     { title: "Tracks", link: "/#tracks", hashLink: true },
-    // { title: "Prizes", link: "/#prizes", hashLink: true },
+    { title: "Prizes", link: "/#prizes", hashLink: true },
     { title: "Sponsors", link: "/#sponsors", hashLink: true },
     { title: "FAQs", link: "/faq", hashLink: false },
   ];
