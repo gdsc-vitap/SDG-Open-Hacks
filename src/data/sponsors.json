@@ -3,6 +3,10 @@
     "title": "Season Partners",
     "sponsors": [
       {
+        "img": "https://i.imgur.com/Wg1pvCc.png",
+        "link": "https://digitalocean.com/"
+      },
+      {
         "img": "https://i.imgur.com/4mUjgsk.png",
         "link": "https://devfolio.co/"
       },
