@@ -7,13 +7,8 @@ const Notice = () => {
       }}
     >
       <p>
-        <strong>Note: </strong> <br />
-        SDG Open Hack 2023 is postponed & will be conducted after{" "}
-        <a href="https://vitopia.vitap.ac.in/">VITOPIA</a>
-        <br />
-        Please check back the website for updates about the new date and timings
-        of the hackathon. Thank you for your understanding and continued
-        enthusiasm.
+        <strong>Note: </strong>
+        SDG Open Hack 2023 is now being held on 12th - 13th March 2023.
       </p>
     </div>
   );
