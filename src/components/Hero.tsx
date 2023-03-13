@@ -80,8 +80,8 @@ const Hero = () => {
             },
           }}
         >
-          Join us on 12th March with over 300 students from across the nation
-          for 36 hours of creation, innovation, & fun!
+          Join us with over 100 students from across the nation for 36 hours of
+          creation, innovation, & fun!
         </Text>
         <Spacer y={1} />
         <Row css={{ rowGap: "$8" }} wrap="wrap" justify="center">
